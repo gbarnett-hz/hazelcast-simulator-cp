@@ -21,7 +21,7 @@
     - class: com.hazelcast.simulator.tests.cp.FencedLockTest
       acquireReleaseUncontendedProb: 1.0
       acquireReleaseContendedProb: 0.0
-      threadCount: 40
+      threadCount: 1
 - name: acqrel-uncontended-2client3member
   repetitions: 1
   duration: 120s
@@ -45,7 +45,7 @@
     - class: com.hazelcast.simulator.tests.cp.FencedLockTest
       acquireReleaseUncontendedProb: 1.0
       acquireReleaseContendedProb: 0.0
-      threadCount: 40
+      threadCount: 1
 - name: acqrel-uncontended-3client3member
   repetitions: 1
   duration: 120s
@@ -69,7 +69,7 @@
     - class: com.hazelcast.simulator.tests.cp.FencedLockTest
       acquireReleaseUncontendedProb: 1.0
       acquireReleaseContendedProb: 0.0
-      threadCount: 40
+      threadCount: 1
 - name: acqrel-uncontended-and-contended-1client3member
   repetitions: 1
   duration: 120s
@@ -93,7 +93,7 @@
     - class: com.hazelcast.simulator.tests.cp.FencedLockTest
       acquireReleaseUncontendedProb: 0.95
       acquireReleaseContendedProb: 0.05
-      threadCount: 40
+      threadCount: 1
 - name: acqrel-uncontended-and-contended-2client3member
   repetitions: 1
   duration: 120s
@@ -117,7 +117,7 @@
     - class: com.hazelcast.simulator.tests.cp.FencedLockTest
       acquireReleaseUncontendedProb: 0.95
       acquireReleaseContendedProb: 0.05
-      threadCount: 40
+      threadCount: 1
 - name: acqrel-uncontended-and-contended-3client3member
   repetitions: 1
   duration: 120s
@@ -141,4 +141,4 @@
     - class: com.hazelcast.simulator.tests.cp.FencedLockTest
       acquireReleaseUncontendedProb: 0.95
       acquireReleaseContendedProb: 0.05
-      threadCount: 40
+      threadCount: 1
