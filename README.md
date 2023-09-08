@@ -68,14 +68,7 @@ INFO  11:30:20     Agent    3.70.133.150      10.0.77.13 (A5) members:  0, clien
 INFO  11:30:20     Agent     3.79.107.96     10.0.77.231 (A6) members:  0, clients:  0 (no workers)
 ```
 
-I've kept each test running for 120 seconds (2 mins). So, be prepared to have a little time as the
-general pattern I use is the following per-test within the test suite:
-
-- Run test; 1 client
-- Run test; 2 client
-- Run test; 3 client
-
-As stated earlier there are always 3 members on the server.
+I've kept each test running for 120 seconds (2 mins).
 
 I would look at the source code for the tests themselves and what they do and importantly would the
 different probabilities changes in the actual configurations.
