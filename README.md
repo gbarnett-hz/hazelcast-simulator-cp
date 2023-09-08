@@ -79,3 +79,8 @@ As stated earlier there are always 3 members on the server.
 
 I would look at the source code for the tests themselves and what they do and importantly would the
 different probabilities changes in the actual configurations.
+
+Most likely you will want to compare all test scenarios against each other, e.g. test-1:
+1client-3member vs 2client-3member vs 3client-3member. Please see
+[here](https://github.com/gbarnett-hz/hazelcast-simulator#generate-comparison-reports) for how to do
+this.
